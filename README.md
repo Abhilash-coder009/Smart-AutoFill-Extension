@@ -61,14 +61,6 @@ Link will be added after publication
 
 ---
 
-## ⌨️ Keyboard Shortcuts
-
-| Shortcut           | Action         |
-| ------------------ | -------------- |
-| `Ctrl + Shift + F` | Auto fill form |
-| `Ctrl + Shift + C` | Clear form     |
-
----
 
 ## 🛠️ Development
 
@@ -116,7 +108,7 @@ You are free to use, modify, and distribute this project for both personal and c
 
 **M Abhilash Kumar**
 
-* GitHub: [@yourusername](https://github.com/yourusername)
+* GitHub: [@Abhilash-coder009](https://github.com/Abhilash-coder009)
 
 ---
 
