@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Smart AutoFill - Settings</title>
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <div class="container">
+    <h1>⚙️ Smart AutoFill Settings</h1>
+    <p style="color: #667eea; margin-bottom: 20px;">Created by M Abhilash Kumar</p>
+    
+    <div class="tabs">
+      <button class="tab-btn active" data-tab="profiles">👤 Profiles</button>
+      <button class="tab-btn" data-tab="learned">📚 Learned Forms</button>
+      <button class="tab-btn" data-tab="settings">⚙️ Settings</button>
+    </div>
+    
+    <div id="profiles-tab" class="tab-content active">
+      <div class="profile-selector">
+        <button id="new-profile" class="primary-btn">+ New Profile</button>
+        <button id="reset-profiles" class="secondary-btn">🔄 Reset to Default</button>
+      </div>
+      
+      <div id="profiles-list"></div>
+    </div>
+    
+    <div id="learned-tab" class="tab-content">
+      <h3>📝 Learned Form Structures</h3>
+      <div id="learned-forms-list"></div>
+      <button id="clear-learned" class="danger-btn">🗑️ Clear All Learned Forms</button>
+    </div>
+    
+    <div id="settings-tab" class="tab-content">
+      <h3>⚙️ Extension Settings</h3>
+      <label>
+        <input type="checkbox" id="auto-detect"> 🔍 Auto-detect forms on page load
+      </label>
+      <label>
+        <input type="checkbox" id="show-notifications"> 🔔 Show fill notifications
+      </label>
+      <label>
+        <input type="checkbox" id="debug-mode"> 🐛 Debug mode (console logs)
+      </label>
+    </div>
+    
+    <div class="credit-footer">
+      <p>🚀 Created with ❤️ by <strong>M Abhilash Kumar</strong></p>
+      <p style="font-size: 10px;">Smart AutoFill Assistant v1.0 | All data stored locally | Your privacy matters</p>
+    </div>
+  </div>
+  <script src="options.js"></script>
+</body>
+</html>

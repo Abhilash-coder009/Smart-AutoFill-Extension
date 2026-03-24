@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>🤖 Smart AutoFill</h1>
+      <p>AI-Powered Form Filler</p>
+    </div>
+
+    <div class="profile-section">
+      <label for="profile-select">Select Profile:</label>
+      <select id="profile-select">
+        <option value="work">💼 Work</option>
+        <option value="personal">👤 Personal</option>
+        <option value="fake">🕵️ Fake Data</option>
+      </select>
+      <button id="manage-profiles" class="secondary-btn">Manage</button>
+    </div>
+
+    <div class="actions">
+      <button id="fill-form" class="primary-btn">✨ Auto Fill Form</button>
+      <button id="learn-form" class="secondary-btn">📝 Learn This Form</button>
+      <button id="clear-form" class="danger-btn">🗑️ Clear Form</button>
+    </div>
+
+    <div class="status" id="status">
+      Ready to fill forms
+    </div>
+
+    <div class="footer">
+      <div class="security-note">
+        🔒 All data stored locally | Your privacy matters
+      </div>
+      <div class="credit">
+        🚀 Created with ❤️ by <strong>M Abhilash Kumar</strong>
+      </div>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
