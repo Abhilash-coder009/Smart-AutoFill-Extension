@@ -98,7 +98,7 @@ Smart-AutoFill-Assistant/
 
 ## 📝 License
 
-This project is licensed under the **[MIT License](LICENSE)**.
+This project is licensed under the **[MIT License](LICENSE.md)**.
 
 You are free to use, modify, and distribute this project for both personal and commercial use.
 
